@@ -28,6 +28,7 @@ jobs:
         with:
           name: images
           path: images/
+  
   publish:
     name: Publish
     if: github.ref == 'refs/heads/master'
